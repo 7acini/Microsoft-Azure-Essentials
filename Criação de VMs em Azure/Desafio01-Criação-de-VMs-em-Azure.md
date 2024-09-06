@@ -12,42 +12,50 @@ A seguir, descrevo os passos detalhados para criar uma máquina virtual (VM) no 
 
 - No painel de navegação, clique em **"Máquinas Virtuais"**.
 - Clique em **"Criar"** e selecione **"Máquina Virtual"**.
+![Criação da VM](./img/CreateVM.png)
 
 #### 3. Preencha os Detalhes Básicos 📝
 
 - **Nome da VM**: Digite um nome descritivo para a VM.
 - **Região**: Escolha a região onde a VM será hospedada (por exemplo, East US).
 - **Opções de Disponibilidade**: Selecione **Conjunto de Disponibilidade** ou **Zona de Disponibilidade** para garantir alta disponibilidade.
-- **Imagem**: Escolha o sistema operacional (ex.: Ubuntu Server 20.04 LTS).
+- **Imagem**: Escolha o sistema operacional (ex.: Ubuntu Server 22.04 LTS).
 - **Tamanho**: Selecione o tamanho da VM conforme suas necessidades de CPU e RAM.
 - **Conta de administrador**: Configure o nome de usuário e a senha ou a chave SSH para login.
+![Informaçãoes para preencher](./img/Detalhes da InstânciaVM.PNG)
 
 #### 4. Configure as Opções de Rede 🌐
 
 - **Rede Virtual**: Selecione uma rede virtual existente ou crie uma nova.
 - **Sub-rede**: Escolha ou crie uma sub-rede.
 - **Grupo de Segurança de Rede (NSG)**: Configure ou selecione um NSG existente para definir as regras de firewall.
+![Configuração da Interface de rede](./img/Interface de rede(VM).PNG)
 
 #### 5. Configure o Armazenamento e os Discos 💾
 
 - **Disco do Sistema Operacional**: Selecione o tipo de disco (SSD Premium, HDD Standard).
 - **Discos de Dados**: Adicione discos adicionais, se necessário.
+![Configuração de discos](./img/Disk(VM).PNG)
 
 #### 6. Defina as Configurações Avançadas ⚙️
 
 - **Monitoramento e Diagnóstico**: Habilite ou desabilite o monitoramento, backup e diagnósticos.
+![configuração das regras de monitoramento](./img/Criação Monitoramento.PNG)
 - **Script de Automação (Opcional)**: Adicione um script para execução na inicialização, se necessário.
+![Scripts para desligamento automatico](./img/Off Automatico.PNG)
 
 #### 7. Revise e Crie 🔍
 
 - Revise todas as configurações.
 - Clique em **"Revisar e Criar"**.
 - Após a validação, clique em **"Criar"**. A criação pode levar alguns minutos.
+![Fim](./img/END.PNG)
 
 #### 8. Conecte-se à Sua VM 🌟
 
 - Para VM Windows: Use Remote Desktop (RDP).
 - Para VM Linux: Use SSH.
+![Criação de nossa chave pública para conexão](./img/Usuário(VM).PNG)
 
 ## Passo a Passo Usando Azure CLI
 
