@@ -12,6 +12,7 @@ A seguir, descrevo os passos detalhados para criar uma máquina virtual (VM) no 
 
 - No painel de navegação, clique em **"Máquinas Virtuais"**.
 - Clique em **"Criar"** e selecione **"Máquina Virtual"**.
+
 ![Criação da VM](./img/CreateVM.png)
 
 #### 3. Preencha os Detalhes Básicos 📝
@@ -22,6 +23,7 @@ A seguir, descrevo os passos detalhados para criar uma máquina virtual (VM) no 
 - **Imagem**: Escolha o sistema operacional (ex.: Ubuntu Server 22.04 LTS).
 - **Tamanho**: Selecione o tamanho da VM conforme suas necessidades de CPU e RAM.
 - **Conta de administrador**: Configure o nome de usuário e a senha ou a chave SSH para login.
+
 ![Informaçãoes para preencher](./img/Detalhes da InstânciaVM.PNG)
 
 #### 4. Configure as Opções de Rede 🌐
@@ -29,12 +31,14 @@ A seguir, descrevo os passos detalhados para criar uma máquina virtual (VM) no 
 - **Rede Virtual**: Selecione uma rede virtual existente ou crie uma nova.
 - **Sub-rede**: Escolha ou crie uma sub-rede.
 - **Grupo de Segurança de Rede (NSG)**: Configure ou selecione um NSG existente para definir as regras de firewall.
+
 ![Configuração da Interface de rede](./img/Interface de rede(VM).PNG)
 
 #### 5. Configure o Armazenamento e os Discos 💾
 
 - **Disco do Sistema Operacional**: Selecione o tipo de disco (SSD Premium, HDD Standard).
 - **Discos de Dados**: Adicione discos adicionais, se necessário.
+
 ![Configuração de discos](./img/Disk(VM).PNG)
 
 #### 6. Defina as Configurações Avançadas ⚙️
